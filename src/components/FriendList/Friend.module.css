@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    border: 2px solid #1a1a1a;
+    border-radius: 8px;
+    width: 100px;
+    height: 164px;
+    padding: 10px;
+}
+.image{
+    width: 100px;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #242424;
+    margin: 0;
+}
+.online{
+    color: green;
+}
+.offline{
+    color:red;
+}
+.status {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}

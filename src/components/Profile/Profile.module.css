@@ -1,0 +1,58 @@
+.container {
+  border: 3px solid #1a1a1a;
+  border-radius: 8px;
+  max-width: 300px;
+  background-color: #fafafa;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 12px;
+}
+.image {
+  width: 50%;
+  height: 50%;
+  background-color: #242424;
+  border-radius: 50%;
+}
+.aboutUser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.username{
+  font-weight: bolder;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+.paragraph{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.stats{
+  color: #1a1a1a;
+}
+.userStats{
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+  background-color: lightgray;
+}
+.statsCount{
+  display: flex;
+  width: calc(33.33%);
+  font-weight: bold;
+  color: #1a1a1a;
+}
+.userStatsList{
+  width: 33.3%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  overflow: hidden;
+}
+.userStatsList:last-child {
+  border-right: none;
+}

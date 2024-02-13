@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1.5px solid #242424;
+    color: #242424;
+}
+
+.articles {
+    background-color: #242424;
+    color: #fff;
+}
+
+.borders {
+    padding: 8px;
+    text-align: center;
+    border: 1.5px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
